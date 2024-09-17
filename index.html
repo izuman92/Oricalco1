@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oricalco Construcciones S.A.S. Construimos tus sueños, con calidad y profesionalismo </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-image: url('imagen-logo.jpg'); /* Imagen de fondo para la cabecera */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        header p {
+            font-size: 24px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 18px;
+            color: #555;
+        }
+        .services, .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-box, .project-box {
+            width: 30%;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .service-box, .project-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Oricalco Construcciones S.A.S.</h1>
+        <p>Construimos tus sueños, con calidad y profesionalismo</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección "Sobre Nosotros" -->
+    <section id="about" class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>En Oricalco Construcciones, nos especializamos en la construcción de proyectos residenciales y comerciales de alta calidad. Con más de 3 años de experiencia, nuestro equipo está comprometido con la excelencia y la satisfacción del cliente.</p>
+        <img src="oricalco2-removebg-preview.png" alt="Imagen sobre la empresa de construcción">
+    </section>
+
+    <!-- Sección "Servicios" -->
+    <section id="services" class="section">
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Construcción Residencial</h3>
+                <p>Desde la planificación hasta la entrega, construimos hogares personalizados que cumplen con las más altas expectativas.</p>
+            </div>
+            <div class="service-box">
+                <h3>Proyectos Comerciales</h3>
+                <p>Diseñamos y ejecutamos proyectos comerciales que garantizan funcionalidad y estética en todos los detalles.</p>
+            </div>
+            <div class="service-box">
+                <h3>Renovaciones y Remodelaciones</h3>
+                <p>Transformamos y renovamos espacios con un enfoque innovador para mejorar tanto la estética como la funcionalidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Proyectos" -->
+    <section id="projects" class="section">
+        <h2>Proyectos Recientes</h2>
+        <div class="projects">
+            <div class="project-box">
+                <h3>Centro Comercial</h3>
+                <p>Construcción del centro comercial, un hito arquitectónico en la ciudad.</p>
+                <img src="shopping.jpg" alt="Centro Comercial">
+            </div>
+            <div class="project-box">
+                <h3>Residencias Skyline</h3>
+                <p>Residencias de lujo con diseño moderno y acabados de alta calidad.</p>
+                <img src="skyline.jpg" alt="Residencias Skyline">
+            </div>
+            <div class="project-box">
+                <h3>Parque Industrial</h3>
+                <p>Parque industrial diseñado para maximizar la eficiencia y la sostenibilidad.</p>
+                <img src="parque.jpg" alt="Parque Industrial">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Contacto" -->
+    <footer id="contact">
+        <p>© 2024 Oricalco Construcciones S.A.S. | Contacto: info@oricalco.com | Teléfono: +593 99 583 3991</p>
+    </footer>
+
+</body>
+</html>
+
